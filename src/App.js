@@ -23,16 +23,11 @@ class App extends Component{
     })();
   }
 
-  state = {
-    isShowFooter:true
-  }
-
   render(){
-    const {isShowFooter} = this.state;
     return (
       <Fragment>
         <Router>
-          <div className="tabBar-wrap" >
+          <div className="tabBar-wrap">
             <nav className="m-tabBar">
               <NavLink to='/Home' className="item">
                 <i className="icon iconfont iconshouye"/>
@@ -57,11 +52,11 @@ class App extends Component{
             </nav>
           </div>
             <Switch>
-              <Route path='/Home' component={Home} />
-              <Route path='/Cart' component={Cart} />
-              <Route path='/Category' component={Category} />
-              <Route path='/Manage' component={Manage} />
-              <Route path='/Personal' component={Personal} />
+              <Route path='/Home' component={Home} meta={true}/>
+              <Route path='/Cart' component={Cart} meta={true}/>
+              <Route path='/Category' component={Category} meta={true}/>
+              <Route path='/Manage' component={Manage} meta={true}/>
+              <Route path='/Personal' component={Personal}/>
               <Route path='/Login' component={Login} />
               <Redirect to='/Home'/>
             </Switch>
