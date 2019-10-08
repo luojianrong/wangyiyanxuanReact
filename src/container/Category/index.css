@@ -56,7 +56,7 @@ body {
 }
 .wrapper .wrapper-main .cateContainer .left-list {
   width: 2.16rem;
-  margin-top: 0.533333333333333rem;
+  margin-top: 0.106666666666667rem;
   height: 100%;
 }
 .wrapper .wrapper-main .cateContainer .left-list .list {
@@ -123,7 +123,7 @@ body {
 .wrapper .wrapper-main .cateContainer .right-list .subCateList .subCateContainer .cateList .list .item .name {
   display: block;
   height: 0.693333333333333rem;
-  line-height: 0.693333333333333rem;
+  line-height: 0.466666666666667rem;
   text-align: center;
   font-size: 0.32rem;
   color: #333;
