@@ -1,0 +1,154 @@
+html,
+body {
+  height: 100%;
+  background-color: #fff;
+}
+.wrapper .wrapper-main .header {
+  width: 100%;
+  position: relative;
+  background-color: #fafafa;
+}
+.wrapper .wrapper-main .header:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #ededed !important;
+}
+@media screen and (-webkit-device-pixel-ratio2) {
+  .wrapper .wrapper-main .header:after {
+    transform: scaleY(0.5);
+  }
+}
+@media screen and (-webkit-device-pixel-ratio3) {
+  .wrapper .wrapper-main .header:after {
+    transform: scaleY(0.333333333333333);
+  }
+}
+.wrapper .wrapper-main .header .header-main {
+  height: 1.173333333333333rem;
+  display: flex;
+  align-items: center;
+  margin-left: 0.266666666666667rem;
+}
+.wrapper .wrapper-main .header .header-main .title {
+  font-size: 0.48rem;
+  float: right;
+  margin-left: 2.933333333333333rem;
+}
+.wrapper .wrapper-main .header .header-main i {
+  font-size: 0.666666666666667rem;
+}
+.wrapper .wrapper-main .header .header-main .right {
+  width: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  float: right;
+  margin-left: 2.133333333333333rem;
+}
+.wrapper .wrapper-main .header .header-main .right a {
+  display: inline-block;
+}
+.wrapper .wrapper-main .content {
+  position: absolute;
+  height: 4rem;
+  margin: auto;
+}
+.wrapper .wrapper-main .content .logo {
+  width: 10rem;
+  height: 0.853333333333333rem;
+  text-align: center;
+  margin-top: 0.8rem;
+}
+.wrapper .wrapper-main .content .logo img {
+  width: 2.56rem;
+  height: 0.853333333333333rem;
+  vertical-align: middle;
+}
+.wrapper .wrapper-main .content .login {
+  width: 100%;
+  padding: 0.933333333333333rem 0.4rem;
+}
+.wrapper .wrapper-main .content .login .login-form {
+  height: 8.213333333333333rem;
+  width: 9rem;
+}
+.wrapper .wrapper-main .content .login .login-form .nameInput,
+.wrapper .wrapper-main .content .login .login-form .codeInput,
+.wrapper .wrapper-main .content .login .login-form .problem,
+.wrapper .wrapper-main .content .login .login-form .btn,
+.wrapper .wrapper-main .content .login .login-form .mis,
+.wrapper .wrapper-main .content .login .login-form .other {
+  display: block;
+  height: 1.2rem;
+  width: 100%;
+  line-height: 1.066666666666667rem;
+  font-size: 0.36rem;
+  border-bottom: 1px solid rgba(102,102,102,0.17);
+}
+.wrapper .wrapper-main .content .login .login-form .codeWrap {
+  position: relative;
+  margin-top: 0.4rem;
+}
+.wrapper .wrapper-main .content .login .login-form .codeWrap .getCode {
+  position: absolute;
+  right: 0.16rem;
+  top: 0.16rem;
+  width: 2.346666666666667rem;
+  height: 0.693333333333333rem;
+  line-height: 0.693333333333333rem;
+  text-align: center;
+  font-size: 0.36rem;
+  border: 1px solid rgba(102,102,102,0.27);
+}
+.wrapper .wrapper-main .content .login .login-form .problem {
+  margin-top: 0.4rem;
+  border: none;
+  overflow: hidden;
+  height: 1.066666666666667rem;
+  color: rgba(102,102,102,0.67);
+}
+.wrapper .wrapper-main .content .login .login-form .problem span {
+  font-size: 0.373333333333333rem;
+  display: inline-block;
+}
+.wrapper .wrapper-main .content .login .login-form .problem span.left {
+  float: left;
+}
+.wrapper .wrapper-main .content .login .login-form .problem span.right {
+  color: #000;
+  float: right;
+}
+.wrapper .wrapper-main .content .login .login-form .btn {
+  width: 100%;
+  margin-top: 0.266666666666667rem;
+  background-color: #dd1a21;
+  display: block;
+  border: none;
+  color: #fff;
+}
+.wrapper .wrapper-main .content .login .login-form .mis {
+  margin-top: 0.266666666666667rem;
+  border: none;
+  font-size: 0.133333333333333rem;
+}
+.wrapper .wrapper-main .content .login .login-form .mis span {
+  margin-right: 0.133333333333333rem;
+  vertical-align: top;
+  font-size: 0.266666666666667rem;
+}
+.wrapper .wrapper-main .content .login .login-form .mis span.service {
+  color: #007aff;
+}
+.wrapper .wrapper-main .content .login .login-form .other {
+  text-align: center;
+  border: none;
+}
+.wrapper .wrapper-main .content .login .login-form .other span {
+  font-size: 0.6rem;
+  color: rgba(0,0,0,0.45);
+}

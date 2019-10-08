@@ -1,0 +1,34 @@
+@import "./common/css/minxs.styl"
+*
+  margin 0
+  padding 0
+
+html,body
+  height 100%
+  width 100%
+
+.tabBar-wrap
+  position fixed
+  z-index 999
+  left 0
+  bottom 0
+  width 100%
+  .m-tabBar
+    height rem(98)
+    display flex
+    justify-content space-around
+    background-color #ffff
+    border-top rem(2) solid rgba(94, 94, 94, 0.19)
+    .item
+      display flex
+      flex-direction column
+      justify-content center
+      align-items center
+      color #666
+      &.active
+        color #b4282d
+      .icon
+        font-size rem(45)
+      .text
+        font-size .32rem
+

@@ -1,0 +1,110 @@
+@import "../../common/css/minxs.styl"
+
+html,body
+  height 100%
+  background-color #ffffff
+.wrapper
+  .wrapper-main
+    .header
+      width 100%
+      border-1px(#ededed)
+      background-color #FAFAFA
+      .header-main
+        height rem(88)
+        display flex
+        align-items center
+        margin-left rem(20)
+        .title
+          font-size .48rem
+          float right
+          margin-left rem(220)
+        i
+          font-size rem(50)
+        .right
+          width rem(150)
+          display: flex;
+          align-items center
+          justify-content space-around
+          float: right;
+          margin-left rem(160)
+          a
+            display inline-block
+    .content
+      position absolute
+      height 4rem
+      margin auto
+      .logo
+        width rem(750)
+        height rem(64)
+        text-align center
+        margin-top rem(60)
+        img
+          width rem(192)
+          height rem(64)
+          vertical-align middle
+
+      .login
+        width 100%
+        padding rem(70) rem(30)
+        .login-form
+          height rem(616)
+          width rem(675)
+          .nameInput,.codeInput,.problem ,.btn,.mis,.other
+            display block
+            height rem(90)
+            width 100%
+            line-height rem(80)
+            font-size rem(27)
+            border-bottom 1px solid rgba(102, 102, 102, 0.17)
+          .codeWrap
+            position relative
+            margin-top rem(30)
+            .getCode
+              position absolute
+              right rem(12)
+              top rem(12)
+              width rem(176)
+              height rem(52)
+              line-height rem(52)
+              text-align center
+              font-size rem(27)
+              border 1px solid rgba(102, 102, 102, 0.27)
+          .problem
+            margin-top rem(30)
+            border none
+            overflow hidden
+            height rem(80)
+            color rgba(102, 102, 102, 0.67)
+            span
+              font-size rem(28)
+              display inline-block
+              &.left
+                float left
+              &.right
+                color black
+                float right
+          .btn
+            width 100%
+            margin-top rem(20)
+            background-color #DD1A21
+            display block
+            border none
+            color #ffffff
+          .mis
+            margin-top rem(20)
+            border none
+            font-size rem(10)
+            span
+              margin-right rem(10)
+              vertical-align top
+              font-size rem(20)
+              &.service
+                color: #007AFF
+          .other
+            text-align center
+            border none
+            span
+              font-size rem(45)
+              color rgba(0, 0, 0, 0.45)
+
+

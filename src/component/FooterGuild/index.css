@@ -1,12 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-html,
-body {
-  height: 100%;
-  width: 100%;
-}
 .tabBar-wrap {
   position: fixed;
   z-index: 999;
@@ -17,9 +8,9 @@ body {
 .tabBar-wrap .m-tabBar {
   height: 1.306666666666667rem;
   display: flex;
+  align-items: center;
   justify-content: space-around;
   background-color: #fff;
-  border-top: 0.026666666666667rem solid rgba(94,94,94,0.19);
 }
 .tabBar-wrap .m-tabBar .item {
   display: flex;
@@ -35,5 +26,6 @@ body {
   font-size: 0.6rem;
 }
 .tabBar-wrap .m-tabBar .item .text {
+  margin-top: 0.09333rem;
   font-size: 0.32rem;
 }

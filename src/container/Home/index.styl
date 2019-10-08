@@ -1,0 +1,744 @@
+@import "../../common/css/minxs.styl"
+
+html,body
+  height 100%
+.wrapper
+  width 100%
+  /*头部样式*/
+  .head-main
+    height rem(148)
+    width 100%
+    position fixed
+    background-color #ffffff
+    z-index 888
+    .header
+      height rem(148)
+      .header-top
+        display flex
+        height rem(88)
+        align-items center
+        a
+          display inline-block
+          width rem(138)
+          height rem(40)
+          color black
+          margin-left rem(30)
+        .head-search
+          margin-left rem(16)
+          display flex
+          align-items center
+          justify-content center
+          width rem(442)
+          height rem(56)
+          color #6666
+          font-size .37333rem
+          background-color #ededed
+          border-radius .10667rem
+        .loginBtn
+          width .98667rem
+          height .53333rem
+          line-height .53333rem
+          text-align center
+          color #b4282d
+          border 1px solid #b4282d
+          border-radius .10667rem
+          margin-left .21333rem
+          font-size .32rem
+      .guild
+        display flex
+        .nav
+          width rem(620)
+          height rem(62)
+          overflow hidden
+          background #fffff
+          .nav-tabs
+            height .72rem
+            width rem(1140)
+            padding-bottom .2rem
+            white-space nowrap
+            margin-left rem(10)
+            .item
+              display inline-block
+              height rem(62)
+              text-align center
+              line-height rem(62)
+              box-sizing border-box
+              font-size rem(28)
+              color #665455
+              margin 0 rem(30)
+              vertical-align middle
+              &.active
+                color #B4282D
+                border-bottom .06rem solid #B4282D
+        .toggle
+          width rem(80)
+          height rem(60)
+          margin-left rem(45)
+          text-align center
+        .icon
+          display inline-block
+          font-size rem(45)
+  /*主体内容*/
+  .contain
+    padding-top rem(148)
+    width 100%
+    overflow hidden
+    /*轮播*/
+    .lunbo
+    .swipers
+      .swiper
+        div
+          height rem(370)
+          width rem(750)
+        img
+          width 100%
+          height 100%
+  /*服务导航*/
+  .service-policy
+    height rem(72)
+    .serve-ul
+      display flex
+      li
+        width rem(227.9)
+        margin-left rem(17)
+        a
+          height rem(72)
+          display flex
+          align-items center
+          i
+            color #b4282d
+          span
+            font-size .32rem
+            color #333
+            margin-left .10667rem
+            line-height .42667re
+  /*产品展示*/
+  .data-reactid
+    padding-bottom rem(98)
+    /*产品分类列表*/
+    .categories
+      .categorie
+        margin-left rem(20)
+        margin-top rem(5)
+        display flex
+        flex-flow wrap
+        justify-content space-around
+        .categorie-item
+          width rem(140)
+          height rem(156)
+          .icon
+            width rem(110)
+            height rem(110)
+            .img
+              width rem(110)
+              height rem(110)
+              background-size rem(110) rem(110)
+              background-repeat no-repeat
+          .text
+            height rem(36)
+            margin-top .13333rem
+            text-align center
+            font-size .32rem
+            color #333
+            line-height .48rem
+            white-space nowrap
+    /*新人专享礼*/
+    .freshmanModule
+      padding-top rem(20)
+      padding-bottom rem(20)
+      height rem(600)
+      background-color #ededed
+      .module
+        height rem(578)
+        background-color #ffffff
+        .moduleTitle
+          height rem(90)
+          line-height rem(90)
+          text-align center
+          font-family PingFangSC-Regular
+          font-size .42667rem
+          .text
+            position relative
+            color #666
+            &.textbefore
+              content ''
+              position absolute
+              top rem(20)
+              left rem(-40)
+              width .32rem
+              height .04rem
+              background #333
+            &.textafter
+              content ''
+              position absolute
+              top rem(20)
+              right rem(-40)
+              width .32rem
+              height .04rem
+              background #333
+        .content
+          position relative
+          height 100%
+          .left
+            position absolute
+            top 0
+            margin-left rem(28)
+            width rem(343)
+            height rem(434)
+            background-color #F9E9CF
+            .name
+              font-family PingFangSC-Medium
+              font-size .42667rem
+              padding .4rem 0 0 .4rem
+            .imgWrap
+              margin .49333rem auto
+              width rem(258)
+              height rem(257)
+              position relative
+              .img
+                width rem(258)
+                height rem(257)
+                img
+                  width 100%
+                  height 100%
+            .animate
+              position absolute
+              width .4rem
+              height .26667rem
+              bottom .24rem
+              right .86667rem
+          .right
+            position absolute
+            right rem(30)
+            top 0
+            width rem(343)
+            height rem(436)
+            .module1
+              border-radius 4px
+              width rem(340)
+              height rem(215)
+              margin-bottom .05333rem
+              .m-activityItem
+                position relative
+                display block
+                color #333
+                width rem(340)
+                height rem(215)
+                float left
+                border-radius .05333rem
+                margin 0 .05333rem .05333rem 0
+                font-size .32rem
+                background-color #FBE2D3
+                padding   .26667rem 0 0 .4rem
+
+                .picWrap
+                  width rem(340)
+                  height rem(215)
+                  position absolute
+                  right 0
+                  top 8px
+                  .pic
+                    width rem(200)
+                    height rem(200)
+                    img
+                      margin-top rem(8)
+                      margin-left rem(140)
+                      width 100%
+                      height auto
+                  .discount
+                    position absolute
+                    top rem(5)
+                    right .4rem
+                    width rem(80)
+                    height rem(60)
+                    opacity .8
+                    background #F59524
+                    border-radius 50%
+                    padding-top .13333rem
+                    color #fff
+                    text-align center
+                    .line1
+                      width rem(80)
+                      height rem(36)
+                      font-size .2rem
+                    .line2
+                      font-size rem(12)
+                      margin-top -.09333rem
+                .cnt
+                  position relative
+                  .title
+                    font-family PingFangSC-Medium
+                    font-size .42667rem
+                  .subTitle
+                    padding-top rem(10)
+                    font-size .31rem
+                    color #7F7F7F
+    /*品牌制造商直供*/
+    .indexManufacturersSupplying
+      padding-top rem(20)
+      padding-bottom rem(20)
+      height rem(690)
+      background-color #ededed
+      .module
+        height rem(670)
+        background-color #ffffff
+        .moduleTitle
+          padding-left rem(30)
+          height rem(90)
+          line-height rem(90)
+          font-family PingFangSC-Regular
+          font-size .42667rem
+          .more
+            float right
+            padding-right rem(24)
+        .list
+          height rem(554)
+          width rem(700)
+          margin-left rem(30)
+          .item
+            display inline-block
+            height rem(260)
+            width  rem(342)
+            margin-right rem(5)
+            background-color #5e5e5e
+            position relative
+            overflow hidden
+            border-radius .05333rem
+            &.item1
+              background-color #eee
+              background-image url("https://yanxuan.nosdn.127.net/74e2ea8f81004d0a60f90fc8e4649058.png?imageView&thumbnail=343y260&enlarge=1")
+              background-size 100% 100%
+            &.item2
+              background-color #eee
+              background-image url("https://yanxuan.nosdn.127.net/c097be14110f769d58245cdad73e15c3.png?imageView&thumbnail=343y260&enlarge=1")
+              background-size 100% 100%
+            &.item3
+              background-color #eee
+              background-image url("https://yanxuan.nosdn.127.net/66a23d776f41cba70d00803a5231124b.png?imageView&thumbnail=343y260&enlarge=1")
+              background-size 100% 100%
+            &.item4
+              background-color #eee
+              background-image url("https://yanxuan.nosdn.127.net/c9e14b08576b6a5e2bc3ef46e0e05d08.png?imageView&thumbnail=343y260&enlarge=1")
+              background-size 100% 100%
+            .cnt
+              position absolute
+              left 0
+              top 0
+              padding-top .30667rem
+              width 100%
+              z-index 4
+              text-align center
+              .title
+                text-overflow ellipsis
+                white-space nowrap
+                overflow hidden
+                color #333
+                font-family PingFangSC-Medium
+                font-size .37333rem
+                line-height .45333rem
+                margin-bottom .04rem
+              div
+                span
+                  font-size .32rem
+                  .price
+                    color #7F7F7F
+
+                .new
+                  display inline-block
+                  width .85333rem
+                  height .42667rem
+                  color #fff
+                  line-height .42667rem
+                  text-align center
+                  background #CBB693
+                  border-radius .05333rem
+                  margin-left .13333rem
+    /*类目制造商直供*/
+    .categoryHotSellModule
+      padding-top rem(20)
+      padding-bottom rem(20)
+      height rem(760)
+      background-color #ededed
+      .module
+        position relative
+        padding-left rem(30)
+        height rem(720)
+        background-color #ffffff
+        .moduleTitle
+          height rem(90)
+          line-height rem(90)
+          font-family PingFangSC-Regular
+          font-size .42667rem
+          .more
+            float right
+            padding-right rem(24)
+        .line1
+          position absolute
+          top rem(90)
+          .item-big
+            width rem(340)
+            height rem(200)
+            float left
+            border-radius .05333rem
+            margin 0 .13333rem .13333rem 0
+            position relative
+            &.item1
+              background-color #F9F3E4
+            div
+              .name
+                position relative
+                padding-left .32rem
+                color #333
+                font-family PingFangSC-Medium
+                font-size .37333rem
+                margin-top: .88rem
+                z-index 5
+              .txt
+                display inline-block
+                position relative
+                &.txt:before
+                  content ''
+                  position absolute
+                  left 0
+                  bottom -.21333rem
+                  width rem(48)
+                  height rem(4)
+                  background rgba(23, 10, 23, 0.86)
+            .imgWrap
+              position absolute
+              right: 0
+              top: 0
+              width: 2.66667rem
+              height: 2.66667rem
+              .m-lazyload
+                width 100%
+              .img
+                width 100%
+        .line2
+          .item
+            width rem(165)
+            height rem(180)
+            display block
+            float left
+            border-radius .05333rem
+            background-color #F5F5F5
+            margin 0 .13333rem .13333rem 0
+            .name
+              margin-top .13333rem
+              text-align center
+              font-size .32rem
+              color #333
+              font-family PingFangSC-Medium
+            .imgWrap
+              width rem(120)
+              height rem(120)
+              margin .02667rem 0 0 .30667rem
+              .img
+                width 100%
+                height auto
+    /*人气推荐*/
+    .popularItemModule
+      padding-bottom rem(20)
+      height rem(800)
+      background-color #ededed
+      .module
+        padding-left rem(30)
+        height rem(800)
+        background-color #ffffff
+        .moduleTitle
+          height rem(90)
+          line-height rem(90)
+          font-family PingFangSC-Regular
+          font-size .42667rem
+          .more
+            float right
+            padding-right rem(24)
+        .spItem
+          float left
+          width rem(690)
+          height (280)
+          background-color #FEF0DF
+          .wraper
+            float left
+            width rem(280)
+            height rem(280)
+            background: url(https://yanxuan.nosdn.127.net/3235bc71e70f134b5499316fc74337d4.png)
+            background-size: 100% 100%
+            margin-right: .4rem
+            img
+              width 100%
+              height auto
+          .right
+            float left
+            width rem(350)
+            height rem(162)
+            margin-top rem(60)
+            margin-left .13333rem
+            .tagWraper
+              .text
+                padding 0 .10667rem
+                line-height .37333rem
+                color #B4282D
+                background rgba(255,255,255,.9)
+                border 1px solid #B4282D
+                border-radius .02667rem
+                font-size .26667rem
+            .name
+              font-family PingFangSC-Regular
+              font-size .37333rem
+              width 100%
+              margin-top rem(15)
+              overflow hidden
+              text-overflow ellipsis
+              white-space nowrap
+              color black
+            .desc
+              margin-top rem(10)
+              font-size .32rem
+              color #7F7F7F
+              width 100%
+              overflow hidden
+              text-overflow ellipsis
+              white-space nowrap
+            .price
+              margin-top rem(6)
+              span
+                margin-left 0
+                font-size .37333rem
+                color #b4282d
+                font-weight bolder
+        .line2
+          margin-top rem(300)
+          .list
+            display flex
+            position relative
+            overflow hidden
+            padding-left 0
+            .item
+              width rem(216)
+              height rem(380)
+              margin-right rem(20)
+              .good
+                width 100%
+                height rem(337)
+                .hd
+                  background-color #f4f4f4
+                  img
+                    width 100%
+                .name
+                  padding-top rem(15)
+                  .text
+                    display block
+                    width 100%
+                    height rem(72)
+                    font-size .32rem
+                    overflow visible
+                    white-space normal
+                    margin-bottom .05333rem
+                .tagWraper
+                  width 100%
+                  height rem(200)
+                  margin rem(30) 0 .05333rem -.16rem
+                  .status
+                    padding 0 .16rem
+                    margin-left rem(14)
+                    line-height .42667rem
+                    height .42667rem
+                    text-align center
+                    color #CE2424
+                    background rgba(255,255,255,.9)
+                    border 1px solid #CE2424
+                    font-size .26667rem
+                    border-radius .18667rem
+                    display inline-block
+
+    /*限时购*/
+    .flashSaleModule
+      padding-top rem(20)
+      padding-bottom rem(20)
+      height rem(720)
+      background-color #ededed
+      .module
+        padding-left rem(20)
+        height rem(720)
+        background-color #ffffff
+        .moduleTitle
+          position relative
+          height rem(90)
+          line-height rem(90)
+          font-family PingFangSC-Regular
+          font-size .42667rem
+          .more
+            float right
+            padding-right rem(24)
+          .time
+            position absolute
+            display inline-block
+            top rem(25)
+            width rem(260)
+            color #fff
+            font-size 12px
+            text-align center
+            background red
+        .item
+          margin-left rem(10)
+        .cnt
+          height rem(600)
+          .item
+            display inline-block
+            width rem(216)
+            height rem(299)
+            margin-right rem(13)
+            .imgWrap
+              width rem(216)
+              height rem(216)
+              background-color #F5F5F5
+              img
+                width 100%
+            .price
+              padding-left .26667rem
+              .current-price
+                font-size .37333rem
+                color #b4282d
+                margin-right .16rem
+              .retail-price
+                font-size .32rem
+                color #7F7F7F
+                text-decoration line-through
+    /*新品首发*/
+    .newItemModule
+      padding-top rem(20)
+      padding-bottom rem(20)
+      height rem(880)
+      background-color #ededed
+      .module
+        padding-left rem(30)
+        height rem(860)
+        background-color #ffffff
+        .moduleTitle
+          height rem(90)
+          line-height rem(90)
+          font-family PingFangSC-Regular
+          font-size .42667rem
+          .more
+            float right
+            padding-right rem(24)
+        .line2
+          .list
+            display flex
+            flex-wrap wrap
+            position relative
+            overflow hidden
+            padding-left 0
+            .item
+              width rem(216)
+              height rem(354)
+              margin-top rem(30)
+              margin-right rem(20)
+              .good
+                width 100%
+                height rem(337)
+                .hd
+                  background-color #f4f4f4
+                  img
+                    width 100%
+                .name
+                  padding-top rem(15)
+                  .text
+                    display block
+                    width 100%
+                    height rem(72)
+                    font-size .32rem
+                    overflow visible
+                    white-space normal
+                    line-height rem(27)
+                .tagWraper
+                  width 100%
+                  z-index 1
+                  margin 0 0 .05333rem -.16rem
+                  overflow hidden
+                  padding-left 0
+                  .status
+                    padding 0 .16rem
+                    margin-left rem(14)
+                    line-height .42667rem
+                    height .42667rem
+                    text-align center
+                    color #CE2424
+                    background rgba(255,255,255,.9)
+                    border 1px solid #CE2424
+                    font-size .26667rem
+                    border-radius .18667rem
+                    display inline-block
+    /*超值专区*/
+    .LightShoppingGuideModule
+      padding-top rem(20)
+      padding-bottom rem(20)
+      height rem(686)
+      background-color #ededed
+      .module
+        height rem(646)
+        background-color #ffffff
+        .list
+          padding-top rem(40)
+          height rem(554)
+          width rem(700)
+          margin-left rem(30)
+          .item
+            display flex
+            flex-wrap wrap
+            height 100%
+            width  100%
+            border-radius .05333rem
+            .cnt
+              margin-right rem(6)
+              margin-top rem(6)
+              height rem(264)
+              width  rem(344)
+              padding-top .30667rem
+              background-color #F5F5F5
+              .title
+                padding-left rem(35)
+                font-size .42667rem
+                font-family PingFangSC-Medium
+                color #333333
+              .price
+                padding-top rem(10)
+                padding-left rem(35)
+                font-size .32rem
+                color #7F7F7F
+              .picList
+                img
+                  width rem(150)
+                  height rem(150)
+                  float left
+                  margin-left .09333rem
+
+    .footer
+      height rem(245)
+      background-color #414141
+      .footer-main
+        height rem(244)
+        text-align center
+        padding .72rem .26667rem .37333rem
+        margin-right auto
+        margin-left auto
+        .bd
+          height rem(62)
+          margin-bottom .48rem
+          a
+            display inline-block
+            border 1px solid #ffffff
+            width rem(172)
+            height rem(62)
+            font-size .32rem
+            color #ffffff
+            line-height rem(62)
+            margin-right rem(20)
+        .copyright
+          width rem(710)
+          height rem(64)
+          margin-top rem(10)
+          color #999
+          span
+            font-size .32rem
