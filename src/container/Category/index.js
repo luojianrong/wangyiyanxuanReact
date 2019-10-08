@@ -50,7 +50,7 @@ export default class Catergory extends Component {
               </div>
             </div>
           </div>
-          <div className="cateContainer">
+          <div className="cateContainers">
             <div className="left-list">
               <ul className="list">
                 {

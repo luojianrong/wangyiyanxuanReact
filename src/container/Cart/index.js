@@ -4,7 +4,7 @@ import './index.css'
 export default class Cart extends Component {
   render() {
     return (
-      <div className="wrapper">
+      <div className="wrapper-cart">
         <div className="wrapper-main">
           <div className="header">
             <header className="header-main">

@@ -23,12 +23,16 @@ class App extends Component{
     })();
   }
 
+  state = {
+    isShowFooter:true
+  }
 
   render(){
+    const {isShowFooter} = this.state;
     return (
       <Fragment>
         <Router>
-          <div className="tabBar-wrap">
+          <div className="tabBar-wrap" >
             <nav className="m-tabBar">
               <NavLink to='/Home' className="item">
                 <i className="icon iconfont iconshouye"/>

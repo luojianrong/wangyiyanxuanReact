@@ -4,30 +4,30 @@ body {
   width: 100%;
   background-color: #f4f4f4;
 }
-.wrapper .wrapper-main .header {
+.wrapper-cart .wrapper-main .header {
   width: 100%;
 }
-.wrapper .wrapper-main .header .header-main {
+.wrapper-cart .wrapper-main .header .header-main {
   height: 1.173333333333333rem;
   background-color: #fff;
   padding: 0 0.4rem;
 }
-.wrapper .wrapper-main .header .header-main .logo {
+.wrapper-cart .wrapper-main .header .header-main .logo {
   float: left;
   font-size: 0.48rem;
   margin-top: 0.35rem;
 }
-.wrapper .wrapper-main .header .header-main .text {
+.wrapper-cart .wrapper-main .header .header-main .text {
   float: right;
   margin-top: 0.4rem;
   margin-right: 0.4rem;
   color: #b4282d;
   font-size: 0.4rem;
 }
-.wrapper .wrapper-main .header .tab {
+.wrapper-cart .wrapper-main .header .tab {
   background: #eee;
 }
-.wrapper .wrapper-main .header .tab .service {
+.wrapper-cart .wrapper-main .header .tab .service {
   height: 0.933333333333333rem;
   background: #eee;
   display: flex;
@@ -35,41 +35,41 @@ body {
   flex-flow: nowrap;
   align-items: center;
 }
-.wrapper .wrapper-main .header .tab .service .item {
+.wrapper-cart .wrapper-main .header .tab .service .item {
   display: flex;
   align-items: center;
   flex-flow: nowrap;
   height: 0.48rem;
 }
-.wrapper .wrapper-main .header .tab .service .item i {
+.wrapper-cart .wrapper-main .header .tab .service .item i {
   color: rgba(94,94,94,0.36);
 }
-.wrapper .wrapper-main .header .tab .service .item span {
+.wrapper-cart .wrapper-main .header .tab .service .item span {
   font-size: 0.32rem;
   color: #666;
 }
-.wrapper .wrapper-main .header .contentImg {
+.wrapper-cart .wrapper-main .header .contentImg {
   position: relative;
   top: 4rem;
 }
-.wrapper .wrapper-main .header .contentImg .img {
+.wrapper-cart .wrapper-main .header .contentImg .img {
   width: 3.306666666666667rem;
   height: 3.306666666666667rem;
   margin-left: 3.333333333333333rem;
 }
-.wrapper .wrapper-main .header .contentImg .img img {
+.wrapper-cart .wrapper-main .header .contentImg .img img {
   width: 100%;
   height: 100%;
 }
-.wrapper .wrapper-main .header .contentImg .text {
+.wrapper-cart .wrapper-main .header .contentImg .text {
   text-align: center;
 }
-.wrapper .wrapper-main .header .contentImg .text span {
+.wrapper-cart .wrapper-main .header .contentImg .text span {
   color: #999;
   margin: 0 0 50px;
   font-size: 16px;
 }
-.wrapper .wrapper-main .header .contentImg .text .loginBtn {
+.wrapper-cart .wrapper-main .header .contentImg .text .loginBtn {
   width: 6.4rem;
   height: 1.226666666666667rem;
   background-color: #b4282d;

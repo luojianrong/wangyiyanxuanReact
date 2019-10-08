@@ -1,7 +1,8 @@
 html,
 body {
+  width: 100%;
   height: 100%;
-  background-color: #f2f5f4;
+  overflow: hidden;
 }
 .wrapper .wrapper-main .header .header-main {
   width: 100%;
@@ -12,9 +13,10 @@ body {
   align-items: center;
 }
 .wrapper .wrapper-main .header .header-main .title {
+  margin-top: 0.266666666666667rem;
   font-size: 0.48rem;
   float: right;
-  margin-left: 1.866666666666667rem;
+  margin-left: 2.533333333333333rem;
 }
 .wrapper .wrapper-main .header .header-main i {
   font-size: 0.666666666666667rem;
@@ -25,14 +27,15 @@ body {
   align-items: center;
   justify-content: space-around;
   float: right;
-  margin-left: 2.133333333333333rem;
+  margin-left: 1.866666666666667rem;
 }
 .wrapper .wrapper-main .header .header-main .right a {
   display: inline-block;
 }
 .wrapper .wrapper-main .header .contentDiv {
   position: absolute;
-  height: 4rem;
+  background-color: #f2f5f4;
+  height: 100%;
   margin: auto;
 }
 .wrapper .wrapper-main .header .contentDiv .img {

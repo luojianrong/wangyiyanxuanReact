@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
-import './index.css'
+import './personl.css'
 
 export default class Personal extends Component {
+  //切换到电话登录组件
+  phoneLogin = ()=>{
+    console.log(this.props.router)
+    this.props.history.push('/Login')
+  }
   render() {
     return (
       <div className="wrapper">
@@ -20,7 +25,7 @@ export default class Personal extends Component {
                 <img src="//yanxuan.nosdn.127.net/bd139d2c42205f749cd4ab78fa3d6c60.png" alt=""/>
               </div>
               <div className="text">
-                <p className="login-phone"><i className="icon iconfont iconshouji"/>手机号快速登录</p>
+                <p className="login-phone" onClick={this.phoneLogin}><i className="icon iconfont iconshouji"/>手机号快速登录</p>
                 <p className="login-email"><i className="icon email iconfont iconyouxiang"/>邮箱账号登录</p>
               </div>
             </div>
