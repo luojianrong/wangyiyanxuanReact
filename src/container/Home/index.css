@@ -160,12 +160,11 @@ body {
 .wrapper .data-reactid .categories .categorie .categorie-item .icon {
   width: 1.466666666666667rem;
   height: 1.466666666666667rem;
+  margin-left: 0.2rem;
 }
 .wrapper .data-reactid .categories .categorie .categorie-item .icon .img {
   width: 1.466666666666667rem;
   height: 1.466666666666667rem;
-  background-size: 1.466666666666667rem 1.466666666666667rem;
-  background-repeat: no-repeat;
 }
 .wrapper .data-reactid .categories .categorie .categorie-item .text {
   height: 0.48rem;
@@ -425,13 +424,13 @@ body {
 .wrapper .data-reactid .categoryHotSellModule {
   padding-top: 0.266666666666667rem;
   padding-bottom: 0.266666666666667rem;
-  height: 10.133333333333333rem;
+  height: 9.866666666666667rem;
   background-color: #ededed;
 }
 .wrapper .data-reactid .categoryHotSellModule .module {
   position: relative;
   padding-left: 0.4rem;
-  height: 9.6rem;
+  height: 9.333333333333334rem;
   background-color: #fff;
 }
 .wrapper .data-reactid .categoryHotSellModule .module .moduleTitle {
@@ -494,6 +493,9 @@ body {
 .wrapper .data-reactid .categoryHotSellModule .module .line1 .item-big .imgWrap .img {
   width: 100%;
 }
+.wrapper .data-reactid .categoryHotSellModule .module .line2 {
+  margin-top: 0.666666666666667rem;
+}
 .wrapper .data-reactid .categoryHotSellModule .module .line2 .item {
   width: 2.2rem;
   height: 2.4rem;
@@ -521,12 +523,12 @@ body {
 }
 .wrapper .data-reactid .popularItemModule {
   padding-bottom: 0.266666666666667rem;
-  height: 10.666666666666666rem;
+  height: 10.533333333333333rem;
   background-color: #ededed;
 }
 .wrapper .data-reactid .popularItemModule .module {
   padding-left: 0.4rem;
-  height: 10.666666666666666rem;
+  height: 10.533333333333333rem;
   background-color: #fff;
 }
 .wrapper .data-reactid .popularItemModule .module .moduleTitle {
@@ -640,12 +642,12 @@ body {
 .wrapper .data-reactid .popularItemModule .module .line2 .list .item .good .tagWraper {
   width: 100%;
   height: 2.666666666666667rem;
-  margin: 0.4rem 0 0.05333rem -0.16rem;
+  margin: 0.133333333333333rem 0 0.05333rem -0.16rem;
 }
 .wrapper .data-reactid .popularItemModule .module .line2 .list .item .good .tagWraper .status {
   padding: 0 0.16rem;
   margin-left: 0.186666666666667rem;
-  line-height: 0.42667rem;
+  line-height: 0.36667rem;
   height: 0.42667rem;
   text-align: center;
   color: #ce2424;
@@ -769,12 +771,10 @@ body {
 }
 .wrapper .data-reactid .newItemModule .module .line2 .list .item .good .name .text {
   display: block;
-  width: 100%;
-  height: 0.96rem;
+  height: 0.866666666666667rem;
   font-size: 0.32rem;
   overflow: visible;
-  white-space: normal;
-  line-height: 0.36rem;
+  line-height: 0.426666666666667rem;
 }
 .wrapper .data-reactid .newItemModule .module .line2 .list .item .good .tagWraper {
   width: 100%;
@@ -786,7 +786,7 @@ body {
 .wrapper .data-reactid .newItemModule .module .line2 .list .item .good .tagWraper .status {
   padding: 0 0.16rem;
   margin-left: 0.186666666666667rem;
-  line-height: 0.42667rem;
+  line-height: 0.36667rem;
   height: 0.42667rem;
   text-align: center;
   color: #ce2424;
