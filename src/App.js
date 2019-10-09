@@ -1,6 +1,7 @@
 import React,{Component,Fragment} from 'react';
 import './App.css';
-import {BrowserRouter as Router, Route, Switch, Redirect, NavLink} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom'
+import FooterGuild from './component/FooterGuild'
 
 //路由组件
 import Home from './container/Home'
@@ -27,39 +28,16 @@ class App extends Component{
     return (
       <Fragment>
         <Router>
-          <div className="tabBar-wrap">
-            <nav className="m-tabBar">
-              <NavLink to='/Home' className="item">
-                <i className="icon iconfont iconshouye"/>
-                <span className="text active">首页</span>
-              </NavLink>
-              <NavLink to='/Category' className="item ">
-                <i className="icon iconfont iconfenlei"/>
-                <span className="text">分类</span>
-              </NavLink>
-              <NavLink to='/Manage' className="item ">
-                <i className="icon iconfont icontupian"/>
-                <span className="text">识物</span>
-              </NavLink>
-              <NavLink to='/Cart' className="item ">
-                <i className="icon iconfont icongouwuche2"/>
-                <span className="text">购物车</span>
-              </NavLink>
-              <NavLink to='/Personal' className="item ">
-                <i className="icon iconfont icon04geren"/>
-                <span className="text">个人</span>
-              </NavLink>
-            </nav>
-          </div>
-            <Switch>
-              <Route path='/Home' component={Home} meta={true}/>
-              <Route path='/Cart' component={Cart} meta={true}/>
-              <Route path='/Category' component={Category} meta={true}/>
-              <Route path='/Manage' component={Manage} meta={true}/>
-              <Route path='/Personal' component={Personal}/>
-              <Route path='/Login' component={Login} />
-              <Redirect to='/Home'/>
-            </Switch>
+          <FooterGuild/>
+          <Switch>
+            <Route path='/Home' component={Home} meta={true}/>
+            <Route path='/Cart' component={Cart} meta={true}/>
+            <Route path='/Category' component={Category} meta={true}/>
+            <Route path='/Manage' component={Manage} meta={true}/>
+            <Route path='/Personal' component={Personal}/>
+            <Route path='/Login' component={Login} />
+            <Redirect to='/Home'/>
+          </Switch>
         </Router>
       </Fragment>
     );

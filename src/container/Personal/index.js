@@ -7,13 +7,17 @@ export default class Personal extends Component {
     console.log(this.props.router)
     this.props.history.push('/Login')
   }
+
+  replaceCom = ()=>{
+    this.props.history.replace('/Home')
+  }
   render() {
     return (
       <div className="wrapper">
         <div className="wrapper-main">
           <div className="header">
             <header className="header-main">
-              <a className="home" href=""><i className="iconfont iconshouye"/></a>
+              <a className="home" href="" onClick={this.replaceCom}><i className="iconfont iconshouye"/></a>
               <h2 className="title">网易严选</h2>
               <div className="right">
                 <a className="search" href=""><i className="iconfont iconsousuo"/></a>

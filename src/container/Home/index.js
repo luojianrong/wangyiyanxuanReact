@@ -31,7 +31,6 @@ export default class Home extends Component {
 
   render() {
     const {policyDescList,kingKongList,indexActivityModule,flashSaleModule,newItemList,popularItemList,hotCategoryList}  = this.state;
-    console.log(hotCategoryList)
     return (
       <div className="wrapper">
         <div className="head-main">

@@ -65,6 +65,10 @@ class Login extends Component {
     })
   };
 
+  replaceCom = ()=>{
+    this.props.history.replace('/Home')
+  }
+
   render() {
     const {getFieldDecorator} = this.props.form;
     return (
@@ -73,7 +77,7 @@ class Login extends Component {
           <div className="wrapper-main">
             <div className="header">
               <header className="header-main">
-                <a className="home"><i className="iconfont iconshouye"/></a>
+                <a className="home" onClick={this.replaceCom}><i className="iconfont iconshouye"/></a>
                 <h2 className="title">网易严选</h2>
                 <div className="right">
                   <a className="search" href=""><i className="iconfont iconsousuo"/></a>
